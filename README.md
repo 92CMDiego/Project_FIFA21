@@ -27,7 +27,9 @@ We also need to take into account a value in the dataset that modifies the ratin
 So we're going to need the second number that appears in these columns. We're going to split those values into two different columns and obtain the second value.
 
 Our model will be built based on this main assumption:
+    
     The OVA could be calculated with the values of the attributes, the international reputation and the +/- the player gets in the different positions.
+
 We'll define our model with the following features and target:
 - **Numerical features**: **attributes** of the players, **international reputation** and **the + or - the player gets when in the different positions**.
 (We exclude the columns that are a summation of other columns).
