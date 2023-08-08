@@ -2,6 +2,7 @@
 ## Predicting players' overall rating (OVA).
 
 We were given a dataset consisting of data of players of FIFA21 game.
+
 This data included:
 - **Personal information** of the player (id, name, nationality, club, height, weight, value, wage, etc.),
 - The **attributes** of the player (measures of how the player passes, shoots, dribbles, runs, jumps, tackles, etc.),
@@ -17,8 +18,11 @@ This data included:
 ## 1. Understanding the data and making decisions.
 Our first priority is to understand the data we're dealing with. We first take a look at the information in the dataset.
 We use our knowledge of the videogame and also information on the web that offers descriptions of the OVA and its components.
+
 We finally come to understand that the OVA is mainly obtained with the following formula:
-    OVA = Atttributes + IR (international reputation).
+
+OVA = Atttributes + IR (international reputation).
+
 Depending on the position the player plays in, the model takes into account different attributes:
 
 We also need to take into account a value in the dataset that modifies the rating of the player when the player plays in different positions.
@@ -26,9 +30,9 @@ We also need to take into account a value in the dataset that modifies the ratin
 
 So we're going to need the second number that appears in these columns. We're going to split those values into two different columns and obtain the second value.
 
-**Our model will be built based on this main assumption**:
+Our model will be built based on this **main assumption**:
     
-The OVA could be calculated with the values of the attributes, the international reputation and the +/- the player gets in the different positions.
+**The OVA could be calculated with the values of the attributes, the international reputation and the +/- the player gets in the different positions.**
 
 We'll define our model with the following features and target:
 - **Numerical features**: **attributes** of the players, **international reputation** and **the + or - the player gets when in the different positions**.
