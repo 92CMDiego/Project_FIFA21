@@ -75,7 +75,7 @@ The next day we are given a new dataset. The format of the information is the sa
 We use this new data to validate how the model performs.
 - We obtain the following metrics. **R2 score: 0.898. MAE: 1.677. MSE: 4.688. RMSE: 2.165.**
 
-##### Links of visited sites.
+#### Links of visited sites.
 - Explanations of the acronyms and abbreviations: (https://gaming.stackexchange.com/questions/167318/what-do-fifa-14-position-acronyms-mean).
 - Explanations of the acronyms and abbreviations: (https://fifauteam.com/fifa-ultimate-team-positions-and-tactics/).
 - FIFA 19 player rating guide (https://fifauteam.com/player-ratings-guide-fifa-19/).
