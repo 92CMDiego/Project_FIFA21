@@ -34,8 +34,8 @@ Depending on the position the player plays in, the model takes into account diff
 We also need to take into account a value in the dataset that modifies the rating of the player **when the player plays in different positions**:
 
 <div align="center">
-  <img src="https://github.com/92CMDiego/Project_FIFA21/blob/main/Improved%20performance.jpg?raw=true" alt="" width="320">
-  <img src="https://github.com/92CMDiego/Project_FIFA21/blob/main/Decreased%20performance.jpg?raw=true" alt="" width="220">
+  <img src="https://github.com/92CMDiego/Project_FIFA21/blob/main/Improved%20performance.jpg?raw=true" alt="" width="340">
+  <img src="https://github.com/92CMDiego/Project_FIFA21/blob/main/Decreased%20performance.jpg?raw=true" alt="" width="235">
 </div>
 
 So we're going to need **the second number** that appears in these columns. We're going to split those values into two different columns and obtain the second value.
@@ -66,12 +66,13 @@ We'll define our model with the following features and target:
 We try different changes in the model. Our final model contains the following changes:
 - We don't discard any of the features because of low correlation.
 - We include a new numerical feature: "wage".
-- We obtain the following metrics. R2 score: 0.899. 0.893. MAE: 1.695. MSE: 4.842. RMSE: 2.200.
+- We obtain the following metrics. R2 score(train): 0.899. R2 score(test): 0.893. MAE: 1.695. MSE: 4.842. RMSE: 2.200.
 
 ## 3. Validating the performance of the model wiht a new dataset.
 The next day we are given a new dataset. The format of the information is the same but it contains new individuals (new data).
+
 We use this new data to validate how the model performs.
-We obtain the following metrics. R2 score: 0.898. MAE: 1.677. MSE: 4.688. RMSE: 2.165.
+- We obtain the following metrics. R2 score: 0.898. MAE: 1.677. MSE: 4.688. RMSE: 2.165.
 
 ##### Links of visited sites.
 - Explanations of the acronyms and abbreviations: (https://gaming.stackexchange.com/questions/167318/what-do-fifa-14-position-acronyms-mean).
