@@ -21,7 +21,7 @@ We use our knowledge of the videogame and also information on the web that offer
 
 We finally come to understand that the OVA is mainly obtained with the following formula:
 
-**OVA = Atttributes + IR (international reputation).**
+```  **OVA = Atttributes + IR (international reputation).**```
 
 Depending on the position the player plays in, the model takes into account different attributes:
 
