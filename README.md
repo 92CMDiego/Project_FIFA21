@@ -1,4 +1,4 @@
-# Project. FIFA21.
+# Project | FIFA21 game.
 ## Predicting players' overall rating (OVA).
 
 We were given a dataset consisting of data of players of FIFA21 game.
@@ -24,12 +24,12 @@ Depending on the position the player plays in, the model takes into account diff
 We also need to take into account a value in the dataset that modifies the rating of the player when the player plays in different positions.
 
 
-So we're going to need the second number that appears in these columns. We're going to split those values into two different columns and obtain them.
+So we're going to need the second number that appears in these columns. We're going to split those values into two different columns and obtain the second value.
 
 Our model will be built based on this main assumption:
-    The OVA could 
+    The OVA could be calculated with the values of the attributes, the international reputation and the +/- the player gets in the different positions.
 We'll define our model with the following features and target:
-- **Numerical features**: **attributes** of the players, **international reputation** and **the + or - the player gets when playing in different positions**.
+- **Numerical features**: **attributes** of the players, **international reputation** and **the + or - the player gets when in the different positions**.
 (We exclude the columns that are a summation of other columns).
 - **Categorical features**: **best position** of the player.
 - **Target**: **OVA**.
