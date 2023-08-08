@@ -1,9 +1,9 @@
 # Project | FIFA21 game.
 ## Predicting players' overall rating (OVA).
 
-We were given a dataset consisting of data of players of FIFA21 game.
+We are given a dataset consisting of data of players of FIFA21 game.
 
-This data included:
+This data includes:
 - **Personal information** of the player (id, name, nationality, club, height, weight, value, wage, etc.),
 - The **attributes** of the player (measures of how the player passes, shoots, dribbles, runs, jumps, tackles, etc.),
 - The player's **best position** and **main positions** (for example, GK, CF, CM, LW, etc.).
@@ -65,7 +65,7 @@ We define our model with the following features and target:
 
 ## 4. Improving the model.
 We try different changes in the model. Our final model contains the following changes:
-- We don't discard any of the features because of low correlation.
+- We don't discard any of the features based on correlation.
 - We include a new numerical feature: "wage".
 - We obtain the following metrics. **R2 score(train): 0.899. R2 score(test): 0.893. MAE: 1.695. MSE: 4.842. RMSE: 2.200.**
 
