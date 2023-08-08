@@ -26,9 +26,9 @@ We finally come to understand that the OVA is mainly obtained with the following
 Depending on the position the player plays in, the model takes into account different attributes:
 
 <div align="center">
-  <img src="https://github.com/92CMDiego/Project_FIFA21/blob/main/GK.jpg?raw=true" alt="" width="300">
+  <img src="https://github.com/92CMDiego/Project_FIFA21/blob/main/GK.jpg?raw=true" alt="" width="100">
   <img src="https://github.com/92CMDiego/Project_FIFA21/blob/main/CDM.jpg?raw=true)" alt="" width="200">
-  <img src="https://github.com/92CMDiego/Project_FIFA21/blob/main/STRIKER.jpg?raw=true" alt="" width="220">
+  <img src="https://github.com/92CMDiego/Project_FIFA21/blob/main/STRIKER.jpg?raw=true" alt="" width="180">
 </div>
 
 We also need to take into account a value in the dataset that modifies the rating of the player when the player plays in different positions.
