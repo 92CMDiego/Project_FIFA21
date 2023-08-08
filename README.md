@@ -2,36 +2,48 @@
 
 We were given a dataset consisting of data of players of FIFA21 game.
 This data included:
-- Personal information of the player (id, nadme, nationality, club, height, weight, value, wage, etc.),
-- The attributes of the player (measures of how the player passes, shoots, dribbles, runs, jumps, tackles, etc.),
-- The player's best position and main positions.
-- A measure of how the player performs when not in its best position or main positions.
-- The international reputation of the player.
+- **Personal information** of the player (id, nadme, nationality, club, height, weight, value, wage, etc.),
+- The **attributes** of the player (measures of how the player passes, shoots, dribbles, runs, jumps, tackles, etc.),
+- The player's **best position** and **main positions**.
+- A measure of **how the player performs when not in its best position or main positions**.
+- The **international reputation** of the player.
 - Other information (like performance with weak foot or skill moves).
-- OVA. The overall rating of the player's capacity to perform in the game.
+- **OVA**. The overall rating of the player's capacity to perform in the game.
 
-Objective. Our goal is to build a linear regression model that predicts as best as possible the OVA.
+**Objective**. Our goal is to build a **linear regression model** that predicts as best as possible the **OVA**.
 
 
 ## 1. Understanding the data andd making decisions.
 Our first priority is to understand the data we're dealing with. We first take a look at the information in the dataset.
 We use our knowledge of the videogame and also information on the web that offers descriptions of the OVA and its components.
-
+  OVA = Atttributes + IR (international reputation).
 After having a deeper understanding of the , we take a closer look at the dataset we are given. We derive some conclusions and make some decisions:
+- **Numerical features**: **attributes** of the players (exlcuding the columns that are a summation of other columns), 
+- **Categorical features**: **best position** of the player.
+- **Target**: **OVA**.
 
 
-
-## 2. Cleaning the data and building the model.
+## 2. Cleaning the data, preparing the data and building the model.
 - We standardize the names of our columns (using "snake_case" convention).
 - We encode our categorical feature (best position) with one hot encoder.
-- 
-
+- We remove some of the symbols that are inside the data of our numerical features.
+- We replace "na" values that we encounter for some attributes with the mean of the values of that column.
+- We check the correlation bewteen numerical features and the target and discard the ones with a correlation of less than 0.2 with the target.
+- We normalize our numerical features with MinMaxScaler.
+- We do a train-test split with a value of 0.1 for the size of the test data.
+- We fit our linear regression model.
+- We obtain the following metrics. R2 score: . 
 
 ## 3. Validating the performance of the model wiht a new dataset.
-
+The next day we are given a new dataset. The format of the information is the same but it contains new individuals (new data).
+We use this new data to validate how the model performs.
+We obtain the following metrics. R2 score: . 
 
 ## 4. Improving the model.
-
+We try different changes in the model. Our final model contains the following changes:
+- We don't discard any of the features because of low correlation.
+- We include a new numerical feature: "wage".
+- We obtain the following metrics. R2 score: . 
 
 ##### Links of visited sites.
 - Explanations of the acronyms and abbreviations: (https://gaming.stackexchange.com/questions/167318/what-do-fifa-14-position-acronyms-mean).
