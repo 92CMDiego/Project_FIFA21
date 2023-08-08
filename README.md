@@ -1,8 +1,9 @@
-# Project_FIFA21
+# Project. FIFA21.
+#### Predicting players' overall rating.
 
 We were given a dataset consisting of data of players of FIFA21 game.
 This data included:
-- **Personal information** of the player (id, nadme, nationality, club, height, weight, value, wage, etc.),
+- **Personal information** of the player (id, name, nationality, club, height, weight, value, wage, etc.),
 - The **attributes** of the player (measures of how the player passes, shoots, dribbles, runs, jumps, tackles, etc.),
 - The player's **best position** and **main positions**.
 - A measure of **how the player performs when not in its best position or main positions**.
@@ -13,12 +14,23 @@ This data included:
 **Objective**. Our goal is to build a **linear regression model** that predicts as best as possible the **OVA**.
 
 
-## 1. Understanding the data andd making decisions.
+## 1. Understanding the data and making decisions.
 Our first priority is to understand the data we're dealing with. We first take a look at the information in the dataset.
 We use our knowledge of the videogame and also information on the web that offers descriptions of the OVA and its components.
-  OVA = Atttributes + IR (international reputation).
-After having a deeper understanding of the , we take a closer look at the dataset we are given. We derive some conclusions and make some decisions:
-- **Numerical features**: **attributes** of the players (exlcuding the columns that are a summation of other columns), 
+We finally come to understand that the OVA is mainly obtained with the following formula:
+    OVA = Atttributes + IR (international reputation).
+Depending on the position the player plays in, the model takes into account different attributes:
+
+We also need to take into account a value in the dataset that modifies the rating of the player when the player plays in different positions.
+
+
+So we're going to need the second number that appears in these columns. We're going to split those values into two different columns and obtain them.
+
+Our model will be built based on this main assumption:
+    The OVA could 
+We'll define our model with the following features and target:
+- **Numerical features**: **attributes** of the players, **international reputation** and **the + or - the player gets when playing in different positions**.
+(We exclude the columns that are a summation of other columns).
 - **Categorical features**: **best position** of the player.
 - **Target**: **OVA**.
 
@@ -32,18 +44,18 @@ After having a deeper understanding of the , we take a closer look at the datase
 - We normalize our numerical features with MinMaxScaler.
 - We do a train-test split with a value of 0.1 for the size of the test data.
 - We fit our linear regression model.
-- We obtain the following metrics. R2 score: . 
+- We obtain the following metrics. R2 score (train): . R2 score (test): . MAE: . MSE: . RMSE: .
 
 ## 3. Validating the performance of the model wiht a new dataset.
 The next day we are given a new dataset. The format of the information is the same but it contains new individuals (new data).
 We use this new data to validate how the model performs.
-We obtain the following metrics. R2 score: . 
+We obtain the following metrics. R2 score: . MAE: . MSE: . RMSE: .
 
 ## 4. Improving the model.
 We try different changes in the model. Our final model contains the following changes:
 - We don't discard any of the features because of low correlation.
 - We include a new numerical feature: "wage".
-- We obtain the following metrics. R2 score: . 
+- We obtain the following metrics. R2 score: .  MAE: . MSE: . RMSE: .
 
 ##### Links of visited sites.
 - Explanations of the acronyms and abbreviations: (https://gaming.stackexchange.com/questions/167318/what-do-fifa-14-position-acronyms-mean).
