@@ -53,7 +53,7 @@ We define our model with the following features and target:
 
 
 ## 2. Cleaning the data, preparing the data and building the model.
-File: Project_FIFA21_v1.
+**File**: Project_FIFA21_v1.
 - We standardize the names of our columns (using "snake_case" convention).
 - We encode our categorical feature (best position) with one hot encoder.
 - We remove some of the symbols that are inside the data of our numerical features.
@@ -66,14 +66,16 @@ File: Project_FIFA21_v1.
 - We obtain the following metrics. **R2 score (train): 0.879. R2 score (test): 0.868. MAE: 1.849. MSE: 5.964. RMSE: 2.442.**
 
 ## 4. Improving the model.
-File: Project_FIFA21_final_model.
+**File**: Project_FIFA21_final_model.
+
 We try different changes in the model. Our final model contains the following changes:
 - We don't discard any of the features based on correlation.
 - We include a new numerical feature: "wage".
 - We obtain the following metrics. **R2 score(train): 0.899. R2 score(test): 0.893. MAE: 1.695. MSE: 4.842. RMSE: 2.200.**
 
 ## 3. Validating the performance of the model wiht a new dataset.
-File: Project_FIFA21_final_model.
+**File**: Project_FIFA21_final_model.
+
 The next day we are given a new dataset. The format of the information is the same but it contains new individuals (new data).
 
 We use this new data to validate how the model performs.
