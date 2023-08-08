@@ -1,5 +1,5 @@
 # Project. FIFA21.
-### Predicting players' overall rating.
+## Predicting players' overall rating.
 
 We were given a dataset consisting of data of players of FIFA21 game.
 This data included:
