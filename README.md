@@ -21,7 +21,7 @@ We use our knowledge of the videogame and also information on the web that offer
 
 We finally come to understand that the OVA is mainly obtained with the following formula:
 
-OVA = Atttributes + IR (international reputation).
+    OVA = Atttributes + IR (international reputation).
 
 Depending on the position the player plays in, the model takes into account different attributes:
 
@@ -32,7 +32,7 @@ So we're going to need the second number that appears in these columns. We're go
 
 Our model will be built based on this **main assumption**:
     
-**The OVA could be calculated with the values of the attributes, the international reputation and the +/- the player gets in the different positions.**
+    **The OVA could be calculated with the values of the attributes, the international reputation and the +/- the player gets in the different positions.**
 
 We'll define our model with the following features and target:
 - **Numerical features**: **attributes** of the players, **international reputation** and **the + or - the player gets when in the different positions**.
