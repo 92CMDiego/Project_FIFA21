@@ -31,7 +31,8 @@ Depending on the position the player plays in, the model takes into account diff
   <img src="https://github.com/92CMDiego/Project_FIFA21/blob/main/Images/STRIKER.jpg?raw=true" alt="" width="180">
 </div>
 
-We also need to take into account a value in the dataset that modifies the rating of the player **when the player plays in different positions**:
+We also need to take into account a value in the dataset that modifies the rating of the player **when the player plays in different positions**.
+The player gets an increased or decreased performance:
 
 <div align="center">
   <img src="https://github.com/92CMDiego/Project_FIFA21/blob/main/Images/Improved%20performance.jpg?raw=true" alt="" width="350">
