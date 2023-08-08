@@ -25,7 +25,7 @@ We finally come to understand that the OVA is mainly obtained with the following
 
 Depending on the position the player plays in, the model takes into account different attributes:
 
-!(https://github.com/92CMDiego/Project_FIFA21/blob/main/GK.jpg?raw=true)
+![''](https://github.com/92CMDiego/Project_FIFA21/blob/main/GK.jpg?raw=true)
 !(https://github.com/92CMDiego/Project_FIFA21/blob/main/CDM.jpg?raw=true)
 !(https://github.com/92CMDiego/Project_FIFA21/blob/main/STRIKER.jpg?raw=true)
 
