@@ -1,5 +1,5 @@
 # Project. FIFA21.
-## Predicting players' overall rating.
+## Predicting players' overall rating (OVA).
 
 We were given a dataset consisting of data of players of FIFA21 game.
 This data included:
@@ -11,7 +11,7 @@ This data included:
 - Other information (like performance with weak foot or skill moves).
 - **OVA**. The overall rating of the player's capacity to perform in the game.
 
-**Objective**. Our goal is to build a **linear regression model** that predicts as best as possible the **OVA**.
+### **Objective**. Our goal is to build a **linear regression model** that predicts as best as possible the **OVA**.
 
 
 ## 1. Understanding the data and making decisions.
