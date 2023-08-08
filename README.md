@@ -27,12 +27,16 @@ Depending on the position the player plays in, the model takes into account diff
 
 <div align="center">
   <img src="https://github.com/92CMDiego/Project_FIFA21/blob/main/GK.jpg?raw=true" alt="" width="150">
-  <img src="https://github.com/92CMDiego/Project_FIFA21/blob/main/CDM.jpg?raw=true)" alt="" width="200">
+  <img src="https://github.com/92CMDiego/Project_FIFA21/blob/main/CDM.jpg?raw=true" alt="" width="200">
   <img src="https://github.com/92CMDiego/Project_FIFA21/blob/main/STRIKER.jpg?raw=true" alt="" width="180">
 </div>
 
 We also need to take into account a value in the dataset that modifies the rating of the player when the player plays in different positions.
 
+<div align="center">
+  <img src="" alt="" width="200">
+  <img src="" alt="" width="200">
+</div>
 
 So we're going to need the second number that appears in these columns. We're going to split those values into two different columns and obtain the second value.
 
