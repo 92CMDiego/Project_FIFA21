@@ -23,7 +23,7 @@ We finally come to understand that the OVA is mainly obtained with the following
 
 - **OVA = Atttributes + IR (international reputation).**
 
-Depending on the position the player plays in, the model takes into account different attributes:
+Depending on the position the player plays in, the model takes into account different attributes. Examples:
 
 <div align="center">
   <img src="https://github.com/92CMDiego/Project_FIFA21/blob/main/GK.jpg?raw=true" alt="" width="150">
