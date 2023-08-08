@@ -5,9 +5,9 @@ We were given a dataset consisting of data of players of FIFA21 game.
 This data included:
 - **Personal information** of the player (id, name, nationality, club, height, weight, value, wage, etc.),
 - The **attributes** of the player (measures of how the player passes, shoots, dribbles, runs, jumps, tackles, etc.),
-- The player's **best position** and **main positions**.
+- The player's **best position** and **main positions** (for example, GK, CF, CM, LW, etc.).
 - A measure of **how the player performs when not in its best position or main positions**.
-- The **international reputation** of the player.
+- The **international reputation** of the player (IR, ranging from 1 to 5).
 - Other information (like performance with weak foot or skill moves).
 - **OVA**. The overall rating of the player's capacity to perform in the game.
 
