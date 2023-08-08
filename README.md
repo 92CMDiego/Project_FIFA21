@@ -60,18 +60,18 @@ We'll define our model with the following features and target:
 - We normalize our numerical features with MinMaxScaler.
 - We do a train-test split with a value of 0.1 for the size of the test data.
 - We fit our linear regression model.
-- We obtain the following metrics. R2 score (train): . R2 score (test): . MAE: . MSE: . RMSE: .
-
-## 3. Validating the performance of the model wiht a new dataset.
-The next day we are given a new dataset. The format of the information is the same but it contains new individuals (new data).
-We use this new data to validate how the model performs.
-We obtain the following metrics. R2 score: . MAE: . MSE: . RMSE: .
+- We obtain the following metrics. R2 score (train): 0.879. R2 score (test): 0.868. MAE: 1.849. MSE: 5.964. RMSE: 2.442.
 
 ## 4. Improving the model.
 We try different changes in the model. Our final model contains the following changes:
 - We don't discard any of the features because of low correlation.
 - We include a new numerical feature: "wage".
-- We obtain the following metrics. R2 score: .  MAE: . MSE: . RMSE: .
+- We obtain the following metrics. R2 score: 0.899. 0.893. MAE: 1.695. MSE: 4.842. RMSE: 2.200.
+
+## 3. Validating the performance of the model wiht a new dataset.
+The next day we are given a new dataset. The format of the information is the same but it contains new individuals (new data).
+We use this new data to validate how the model performs.
+We obtain the following metrics. R2 score: 0.898. MAE: 1.677. MSE: 4.688. RMSE: 2.165.
 
 ##### Links of visited sites.
 - Explanations of the acronyms and abbreviations: (https://gaming.stackexchange.com/questions/167318/what-do-fifa-14-position-acronyms-mean).
