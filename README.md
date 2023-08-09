@@ -73,7 +73,7 @@ We try different changes in the model. Our final model contains the following ch
 - We don't discard any of the features based on correlation.
 - We include a new numerical feature: "wage".
 - We obtain the following metrics. **R2 score(train): 0.899. R2 score(test): 0.893. MAE: 1.695. MSE: 4.842. RMSE: 2.200.**
-- (In order to be able to compare the different versions of the model with more accuracy, we include a **random_state** parameter).
+- (We include a **random_state** parameter in order to be able to compare the different versions of the model with more accuracy).
 
 ## 3. Validating the performance of the model wiht a new dataset.
 **File**: Project_FIFA21_final_model.ipynb.
