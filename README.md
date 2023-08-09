@@ -1,7 +1,7 @@
 # Project | FIFA21 game.
 ## Predicting players' overall rating (OVA).
 
-We are given a dataset consisting of information of players of FIFA21 game.
+We are given a dataset consisting of information of players in FIFA21 game.
 
 This data includes:
 - **Personal information** of the player (id, name, nationality, club, height, weight, value, wage, etc.),
